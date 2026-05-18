@@ -1,0 +1,100 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #001f3f; /* Azul marino */
+    color: #ffffff;
+}
+
+h1, h2, h3 {
+    color: #ffcc00; /* Amarillo para destacar títulos */
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+header .menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+header .menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header .menu li a:hover {
+    background-color: #ffcc00;
+    color: #001f3f;
+}
+
+/* Intro Section */
+.intro {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Destinos Section */
+.destinos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.destinos .card {
+    background-color: #004080;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.destinos .card:hover {
+    transform: scale(1.05);
+}
+
+.destinos .card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .contacto, footer .info {
+    margin: 10px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
